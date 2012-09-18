@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{margin:0; font:Arial, Helvetica, sans-serif; font-size:15px; background-color:#cfcfcf;}
+
+#wrapper{margin:05% auto ; width:1000px; height:10%; background-color:#ffffff; }
+#header{width:1000px; height:127px; background:url(images/header.jpg); background-repeat:inherit;}
+#menu{width:1000px; height:38px; background:url(images/menu.jpg); background-repeat:no-repeat;}
+
+.breaker{clear:both}
+
+#pageContainer{width:1000px; background-color:#9900CC; margin:0 auto;}
+#lefter{width:410px; height:100%; float:left;}
+#slideShow{width:405px; height:471px; float:left; margin: 0 0 0 5px; background:url(images/slideShow.jpg); background-repeat:no-repeat;}
+#topStories{width:405px; height:490px; margin: 0 0 0 5px; background:url(images/topStories.jpg); background-repeat:no-repeat;}
+#quiz{width:655px; height:475px; margin: 10px 0 0 5px; background:url(images/seemore.jpg); background-repeat:no-repeat;}
+#articles{width:655px; height:610px; background:url(images/articles.jpg); background-repeat:no-repeat;}
+
+#center{width:210px; float:left; padding-left:20px;}
+#tips{width:210px; height:960px; background:url(images/latestTips.jpg); background-repeat:no-repeat;}
+
+
+#righter{width:340px; float:right; padding-left:20px;}
+#social{width:340px; height:150px; background:url(images/social.jpg); background-repeat:no-repeat;}
+#ad_300{width:300px; height:300px; padding:0 10px 0 10px;}
+#side-bar {width:340px; height:1210px; background:url(images/right_bar.jpg); background-repeat:no-repeat;}
+#hotlist {width:340px; height:400px;  padding:0 5px 0 5px; background:url(images/hotlist.jpg); background-repeat:no-repeat;}
+#adArea {width:1000px; height:120px; background-color:#efefef; padding:inherit;}
+#ad_728 {width:728px; height:90px; margin:auto auto;}
+
+.content{padding:0px;}
