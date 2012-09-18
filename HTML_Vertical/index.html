@@ -24,7 +24,18 @@
 
 <div id="righter">
 <div id="social"></div>
-<div id="ad_300"><img src="images/ad_300x250.jpg" /></div>
+<div id="ad_300">
+	<script type='text/javascript'>
+		var ifr = top.location != location ? 1 : 0;
+		var site = ifr && document.referrer != '' && document.referrer != null ? document.referrer : location.toString(); site = escape(site); site = site.replace(/'/g, '%27');
+		document.write('<img style="display:none" src="http://tracking.oggifinogi.com/trk/impression.gif?cid=48feb7a8-6437-4a52-b0d3-67f6640268c8&pid=0c501309-a172-47c7-89c9-134fc48dc9a5&r=' + site +'&ifr=' + ifr +'&cb=' + Math.random() +'&tt=2&ns=0" />');
+		document.write('<scri' + 'pt type="text/javascript" src=\'http://raw.oggifinogi.com/GetInitScript?oggiId=0c501309-a172-47c7-89c9-134fc48dc9a5&oggiWidth=300px&oggiHeight=250px&oggiCampaignId=48feb7a8-6437-4a52-b0d3-67f6640268c8&oggiVary=&oggiImpolite=false&oggiIsIframe=' + ifr +'&oggiSite=' + site +'\'></scri'+ 'pt>');
+	</script>
+	<noscript>
+		<img style="display:none" src="http://tracking.oggifinogi.com/trk/impression.gif?cid=48feb7a8-6437-4a52-b0d3-67f6640268c8&pid=0c501309-a172-47c7-89c9-134fc48dc9a5&tt=2&ns=1&cb=1714584279"/>
+		<img style="display:none" src="http://tracking.oggifinogi.com/trk/display.gif?cid=48feb7a8-6437-4a52-b0d3-67f6640268c8&pid=0c501309-a172-47c7-89c9-134fc48dc9a5&tt=2&ns=1&cb=1714584279"/>
+	</noscript>
+</div>
 <div id="hotlist"></div>
 <div id="side-bar"></div>
 </div>
