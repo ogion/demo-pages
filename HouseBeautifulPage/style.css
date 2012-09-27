@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+/*houseBeautiful*/
+
+body{margin:0; font:Arial, Helvetica, sans-serif; font-size:15px; background-color:#cfcfcf;}
+
+#wrapper{
+    margin:182px auto 187px;
+    width:955px; height:100%;
+    background-color:#ffffff;
+    }
+#header{
+    width:955px;
+    height:169px;
+    background:url(images/top.jpg);
+    background-repeat:no-repeat;
+    }
+#lefter{
+    width:611px;
+    height:100%;
+    float:left;
+    }
+#slideShow{
+    width:611px;
+    height:318px;
+    float:left;
+    background:url(images/slides.jpg);
+    background-repeat:no-repeat;
+    }
+#contentArea1{
+    width:611px;
+    height:342px;
+    float: left;
+    }
+#contentArea1 img{
+    float:left;
+    }
+#hbAdSpace{
+    float:left;
+    width:611px;
+    height: 116px;
+    background:url(images/hbAd.jpg);
+    background-repeat:no-repeat;
+    }
+#contentArea2{
+    float:left;
+    width:611px;
+    height:343px;
+    background:url(images/content3.jpg);
+    background-repeat:no-repeat;
+}
+
+#righter{
+    float: right;
+    width: 344px;
+    height: 100%;
+}
+
+#social{
+    width:344px;
+    height: 155px;
+    background:url(images/social.jpg);
+    background-repeat:no-repeat; 
+}
+#sideBar{
+    width:344px;
+    height: 941px;
+    background:url(images/sidebar.jpg);
+    background-repeat:no-repeat; 
+}
+#barAd{
+    clear:both;
+    margin: 0px 140px 0px 140px;
+    width:955px;
+    height: 85px;
+    background:url(images/barAd.jpg);
+    background-repeat:no-repeat; 
+}
+
+#contentArea3{
+    margin: 15px 0px 0px 0px;
+    width:955px;
+    height: 311px;
+    background:url(images/content4.jpg);
+    background-repeat:no-repeat;
+}
+
+#contentArea4 img{
+    float: left;
+}
+
+#footerArea{
+    width: 955px;
+    height: 398px;
+    background:url(images/footer.jpg);
+    background-repeat:no-repeat;    
+}
+
+/*.breaker{clear:both}*/
+
