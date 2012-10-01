@@ -62,6 +62,10 @@ body{margin:0; font:Arial, Helvetica, sans-serif; font-size:15px; background-col
     background:url(images/social.jpg);
     background-repeat:no-repeat; 
 }
+
+#ad_300{
+  margin-left: 15px;
+}
 #sideBar{
     width:344px;
     height: 941px;
@@ -90,6 +94,7 @@ body{margin:0; font:Arial, Helvetica, sans-serif; font-size:15px; background-col
 }
 
 #footerArea{
+    clear: both;
     width: 955px;
     height: 398px;
     background:url(images/footer.jpg);
