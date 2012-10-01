@@ -8,6 +8,7 @@ body{margin:0; font:Arial, Helvetica, sans-serif; font-size:15px; background-col
     margin:182px auto 187px;
     width:955px; height:100%;
     background-color:#ffffff;
+    overflow-x: hidden;
     }
 #header{
     width:955px;
