@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{margin:0; font:Arial, Helvetica, sans-serif; font-size:15px; background-color:#efefef;}
+
+#wrapper{margin:auto; width:1000px; height:10%; background-color:#ffffff; }
+#header{width:1000px; height:127px; background:url(images/header.jpg); background-repeat:inherit;}
+#menu{width:1000px; height:38px; background:url(images/menu.jpg); background-repeat:no-repeat;}
+
+.breaker{clear:both}
+
+#pageContainer{width:1000px; background-color:#9900CC; margin:0 auto;}
+#lefter{width:410px; height:100%; float:left;}
+#slideShow{width:405px; height:471px; float:left; margin: 0 0 0 5px; background:url(images/slideShow.jpg); background-repeat:no-repeat;}
+#topStories{width:405px; height:490px; margin: 0 0 0 5px; background:url(images/topStories.jpg); background-repeat:no-repeat;}
+
+#center{width:210px; float:left; padding-left:20px;}
+#tips{width:210px; height:960px; background:url(images/latestTips.jpg); background-repeat:no-repeat;}
+
+
+#righter{width:340px; float:right; padding-left:20px;}
+#social{width:340px; height:150px; background:url(images/social.jpg); background-repeat:no-repeat;}
+#ad{width:300px; height:600px; padding:0 20px 0 20px;}
+
+#content{padding:10px;}
