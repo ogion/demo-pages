@@ -1,5 +1,5 @@
 function check_api() {
-  function (msg) {
+  function log(msg) {
     var logger = $("#log");
     var html = logger.html();
     html += msg + "<br/>";
