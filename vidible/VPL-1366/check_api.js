@@ -1,5 +1,5 @@
 function check_api() {
-  function log(msg) {
+  function (msg) {
     var logger = $("#log");
     var html = logger.html();
     html += msg + "<br/>";
@@ -7,18 +7,7 @@ function check_api() {
   }
 
   function playerMetaData (evt) {
-    if (evt.type == "videostart") {
-      log('Video Start EVENT fired');
-    }
-    else if (evt.type == "videometa") {
-      log('Video Meta EVENT fired');
-    }
-    else if (evt.type == "videoend"){
-      log('Video End EVENT fired');
-    }
-    else if (evt.type == "videotimeupdate"){
-      log('Video Time Update EVENT fired');
-    }
+    log("We got event: " + JSON.stringify(evt));
   }
 
   function onPlayerReady(player) {
