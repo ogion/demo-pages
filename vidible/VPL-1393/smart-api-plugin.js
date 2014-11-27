@@ -8,8 +8,8 @@ var VTMFBC = (function() {
 
     function onPlayerReady(event) {
         console.log("Player ready.")
-        console.log("Experience id is " + evt.target.experience.id);
-        _player = brightcove.api.getExperience(evt.target.experience.id);
+        console.log("Experience id is " + event.target.experience.id);
+        _player = brightcove.api.getExperience(event.target.experience.id);
         console.log("Player is " + _player);
         videoPlayer = _player.getModule(brightcove.api.modules.APIModules.VIDEO_PLAYER);
         console.log("Video Player is " + videoPlayer);
