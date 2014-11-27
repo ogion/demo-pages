@@ -1,14 +1,15 @@
 var VTMFBC = (function() {
-    console.log("************ Vidible Tracking Plugin has loaded ******************");
+    console.log("Plugin started.");
 
     var _player;
     var videoPlayer;
     var experience;
 
 
-    function onPlayerReady() {
-        console.log("********* ON PLAYER READY ***********")
-        this._player = brightcove.api.getExperience();
+    function onPlayerReady(event) {
+        console.log("Player ready.")
+        console.log("Experience id is " + evt.target.experience.id);
+        this._player = brightcove.api.getExperience(evt.target.experience.id);
         this.videoPlayer = _player.getModule(brightcove.api.modules.APIModules.VIDEO_PLAYER);
         this.experience = _player.getModule(brightcove.api.modules.APIModules.EXPERIENCE);
 
