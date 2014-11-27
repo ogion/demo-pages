@@ -15,7 +15,7 @@ var VTMFBC = (function() {
         console.log("Video Player is " + videoPlayer);
 //        this.experience = _player.getModule(brightcove.api.modules.APIModules.EXPERIENCE);
 
-//        videoPlayer.addEventListener(brightcove.api.events.MediaEvent.BEGIN, mediaBeginEventHandler);
+        videoPlayer.addEventListener(brightcove.api.events.MediaEvent.BEGIN, mediaBeginEventHandler);
 //        videoPlayer.addEventListener(brightcove.api.events.MediaEvent.PLAY, mediaEventHandler);
 //        videoPlayer.addEventListener(brightcove.api.events.MediaEvent.CHANGE, mediaEventHandler);
 //        videoPlayer.addEventListener(brightcove.api.events.MediaEvent.STOP, mediaEventHandler);
