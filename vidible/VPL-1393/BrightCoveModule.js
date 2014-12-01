@@ -219,14 +219,16 @@ vdb.extras.BrightCoveModule = function() {
 	vdb.extras.Extra.call(this);
 };
 vdb.extras.BrightCoveModule.main = function() {
-	vdb.extras.Extra.register(vdb.extras.BrightCoveModule,"brightcovemodule");
+	new vdb.extras.BrightCoveModule().runExtra();
 };
 vdb.extras.BrightCoveModule.__super__ = vdb.extras.Extra;
 vdb.extras.BrightCoveModule.prototype = $extend(vdb.extras.Extra.prototype,{
 	runExtra: function() {
+		window["VdbBC"] = {}
 		window["VdbBC"]["onTemplateReady"] = this.ready;
 	}
 	,ready: function(event) {
+		console.log("onTemplateReady");
 		this._api = new vdb.external.brightcove.BrightcoveAPI(window["brightcove"]["api"],event["target"]["experience"]["id"]);
 		this._api.get_player().addEventListener(this._api.get_events().get_mediaEvent().get_BEGIN(),$bind(this,this.onVideoBegin));
 		this._api.get_player().addEventListener(this._api.get_events().get_mediaEvent().get_PROGRESS(),$bind(this,this.onVideoProgress));
