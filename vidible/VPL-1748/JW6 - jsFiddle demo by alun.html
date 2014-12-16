@@ -23,6 +23,7 @@
 
 
 <script type="text/javascript">//<![CDATA[
+var tag = 'http://ad4.liverail.com/?LR_PUBLISHER_ID=1331&LR_SCHEMA=vast2-vpaid';
 
 jwplayer("my-video").setup({
     file: 'http://cdn.vidible.tv/stage/2014-06/19/53a2d818e4b0e8f7f218b4de_640x360_v1.mp4',
@@ -32,7 +33,12 @@ jwplayer("my-video").setup({
     primary: 'flash',
 	advertising: {
 		client: "vast",
-        tag: "http://delivery.dev.vidible.tv/placement/vast/5488553fe4b0e6e1fe38a951/54885543e4b0e6e1fe38a954?bcid=50d595ec0364e95588c77bd2"
+		schedule: {
+			myAds: {
+				offset: "pre",
+				tag: tag
+			}
+		}
 	}
 });
 
