@@ -118,7 +118,7 @@
 		},
 		"playerWidget": {
 			"playerType": "SMART",
-			"url": "http://cdn.vidible.tv/stage/2015-03/02/53496cbee4b08e89da5675ce_v285.swf",
+			"url": "http://cdn.vidible.tv/stage/2015-03/05/53496cbee4b08e89da5675ce_v286.swf",
 			"adOnly": false
 		},
 		"geo": {
