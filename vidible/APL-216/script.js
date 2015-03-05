@@ -91,6 +91,7 @@
 		"adSettings": {
 			"podSize": 1,
 			"prerollInterleave": 1,
+      "midrollTiming": '20%',
 			"softTimeout": 0.4,
 			"hardTimeout": 3.2,
 			"startTimeout": 19.200000000000003,

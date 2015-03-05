@@ -18,8 +18,9 @@
             function onPlayerReady(player, context) {
                 //do something useful with player object
                 trace('Player ready');
+                window['vdbPlayerObject'] = player;
                 player.addEventListener(vidible.VIDEO_START, function(){
-                    trace('Video started: ' + player.getCurrentVideoInfo());
+                    trace('Video started: ' + player);
                 });
             }
 
