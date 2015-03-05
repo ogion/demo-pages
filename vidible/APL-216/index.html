@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+<!-- TAG START { player: "APL-90 Pure JS extra demo", owner: "Vidible", for: "Vidible" } -->
+<div class="vdb_player vdb_54f6fa4ce4b097b21d38c07050d595ec0364e95588c77bd2">
+        <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript">
+            function trace(msg) {
+                if (console && console.log) {
+                    console.log('API test message: ' + msg);
+                }
+            }
+            function onPlayerReady(player, context) {
+                //do something useful with player object
+                trace('Player ready');
+                player.addEventListener(vidible.VIDEO_START, function(){
+                    trace('Video started: ' + player.getCurrentVideoInfo());
+                });
+            }
+
+            (function(div, cb){
+                if (div.vdb_Player) {
+                    cb(div.vdb_Player, div.vdb_Context);
+                } else {
+                    var fn = arguments.callee;
+                    setTimeout(function(){ fn(div,cb); },0);
+                }
+            })(document.getElementById("vdb_player"), onPlayerReady);
+    </script>
+</div>
+  </body>
+
+</html>
