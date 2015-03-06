@@ -86,7 +86,7 @@
 			"surround3DBevelSize": 0,
 			"surround3DBevelStrength": 0.0,
       "jsExtras": [{
-        "coreJsUrl": "//cdn.vidible.tv/stage/js/extras/nielsen.js"
+        "coreJsUrl": "nielsen.js"
       }],
 			"HLSExtra": "http://cdn.vidible.tv/stage/2015-03/02/5422fb8486f2114b63e770e0_v72.swf",
 			"IMAExtra": "http://cdn.vidible.tv/stage/2015-03/02/5422fb8486f2114b63e770d0_v63.swf",
