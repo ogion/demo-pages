@@ -1,0 +1,159 @@
+﻿body, html {
+    height: 100%;
+
+}
+
+/*GENERAL*/
+@font-face {
+    font-family: 'TetriaLTComLight';
+    src: url('http://shared.5min.com/fonts/tetrialtcom-light-webfont.eot');
+    src: url('http://shared.5min.com/fonts/tetrialtcom-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://shared.5min.com/fonts/tetrialtcom-light-webfont.woff') format('woff'),
+         url('http://shared.5min.com/fonts/tetrialtcom-light-webfont.ttf') format('truetype'),
+         url('http://shared.5min.com/fonts/tetrialtcom-light-webfont.svg#TetriaLTComLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#thumbnails {
+    position: relative;
+    padding-left: 50px;
+}
+#thumbnails .tContainer {
+    position: absolute;
+    top: -60px;
+    margin-left: -17px;
+    background: #7e7c7d;
+    width: 30px;
+    height: 65px;
+    padding: 3px 3px 0px 3px;
+    background: url('/timeline/img/thumb.png');
+    background-position:left top;
+     cursor: pointer;
+    
+
+}
+#thumbnails .tContainer.cloudly .clouds {
+    position: absolute;
+    width: 84px;
+    height: 42px;
+    background: url('/timeline/img/cloud.png') no-repeat;
+    left: -30px;
+    
+}
+#thumbnails .tContainer:hover{
+    background-position:   0px -68px !important;
+    z-index: 9999;
+
+}
+#thumbnails .tContainer.hidden:hover {
+    background-position:left bottom !important;
+}
+    #thumbnails .tContainer.hidden {
+       
+        background-position: left bottom;
+    }
+#thumbnails .tContainer:hover .thumbTitle{
+    display: block;
+    cursor: pointer;
+}
+#thumbnails .tContainer.hidden:hover .thumbTitle {
+    display: none!important;
+}
+#thumbnails .tContainer .thumbTitle {
+    color: #fff;
+    font-size: 11px;
+    font-family: arial;
+    height: 31px;
+    line-height: 14px;
+    width: 85px;
+    overflow: hidden;
+    position: absolute;
+    left: 35px;
+    display: none;
+    background: #0090ed;
+    border-radius: 0px 4px 4px 0px;
+    padding: 2px 2px 0px 2px;
+    top: 0px;
+}
+#thumbnails .tContainer.hidden .thumbTitle {
+    display: none;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.videoWidget {
+    width: 520px;
+    height: 210px;
+    background: #ececec;
+    padding: 34px 25px 0px 25px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.videoWidget .widgetTitle {
+    font-family: 'TetriaLTComLight', 'Arial';
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #666666;
+    z-index: 999;
+}
+
+.fiveminlb {
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 700px;
+    height: 331px;
+    font-family: arial;
+    padding: 17px;
+    color: #fff;
+    position: relative;
+    z-index: 9999;
+}
+.fiveminlb .playerArea {
+    float: left;
+    width: 430px;
+    height: 290px;
+
+}
+.fiveminlb .ttl {
+    color: #22ace5;
+    font-size: 19px;
+    font-weight: bold;
+    padding-bottom: 22px;
+    display: block;
+    text-align: left;
+}
+.fiveminlb .videoInfo {
+    width: 233px;
+    border-top: 1px solid #232222;
+    border-bottom: 1px solid #232222;
+    padding: 11px 18px;
+    float: left;
+    font-size: 13px;
+    line-height: 17px;text-align: left;
+}
+
+.fiveminlb .closeBtn {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+#cboxOverlay {
+    background-color: #000;width: 100%;height: 2000px;
+    position: absolute;
+    top: 0px;left: 0px;
+}
