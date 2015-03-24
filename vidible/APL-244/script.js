@@ -27,7 +27,7 @@
             "PlayedTo100Percent": ["http://100.pix.com"],
             "Impression": ["http://impression.pix.com"],
             "PlayedTo25Percent": ["http://25.pix.com"]
-          }
+          },
 					"duration": 211557
 				}
 			}]
