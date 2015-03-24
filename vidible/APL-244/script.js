@@ -3,35 +3,31 @@
 		"status": {
 			"code": "OK"
 		},
-		"id": "54f6fa4ce4b097b21d38c070",
+		"id": "55114140e4b0c35b50a26e41",
 		"bid": {
-			"id": "53478578e4b0e8a616cce633",
+			"id": "551140dfe4b0dba8eff1efda",
 			"videos": [{
-        "videoId": "54eb2523e4b08a86d9eeea16",
-        "name": "QA3 feed video",
-        "videoUrls": ["http://cdn.vidible.tv/stage/2015-02/23/54eb2523e4b08a86d9eeea16_640x360_v1.mp4", "http://cdn.vidible.tv/stage/2015-02/23/54eb2523e4b08a86d9eeea16_640x360_v1.ogg"],
-        "thumbnail": "http://cdn.vidible.tv/stage/2015-02/23/54eb2523e4b08a86d9eeea16_60x60_A_v1.png",
-        "fullsizeThumbnail": "http://cdn.vidible.tv/stage/2015-02/23/54eb2523e4b08a86d9eeea16_640x360_A_v1.png",
-        "subtitles": [],
-        "metadata": {
-          "duration": 69008,
-          "category": ["category"],
-          "content": {
-            "Click": ["http://click-100.pix.com", "http://click-200.pix.com"],
-            "PlayedTo50Percent": ["http://50.pix.com"],
-            "PlayedTo75Percent": ["http://75.pix.com"],
-            "PlayedTo100Percent": ["http://100.pix.com"],
-            "Impression": ["http://impression.pix.com"],
-            "PlayedTo25Percent": ["http://25.pix.com"]
-          }
-        }
-      }]
+				"videoId": "55113fbee4b0856472fb9027",
+				"name": "Sanity",
+				"videoUrls": ["http://cdn.vidible.tv/prod/2015-03/24/55113fbee4b0856472fb9027_300x250_v1.mp4", "http://cdn.vidible.tv/prod/2015-03/24/55113fbee4b0856472fb9027_300x250_v1.ogg"],
+				"thumbnail": "http://cdn.vidible.tv/prod/2015-03/24/55113fbee4b0856472fb9027_60x60_A_v1.png",
+				"fullsizeThumbnail": "http://cdn.vidible.tv/prod/2015-03/24/55113fbee4b0856472fb9027_o_A_v1.png",
+				"subtitles": [],
+				"metadata": {
+					"commonRating": {
+						"value": "G",
+						"descriptors": [],
+						"minAge": 0
+					},
+					"duration": 211557
+				}
+			}]
 		},
 		"playerTemplate": {
       "nielsenSiteCampaign": 11222,
       "nielsenChannelCampaign": 22211,
 			"initialization": "autoplay",
-			"sound": "muted",
+			"sound": "normal",
 			"initialVolume": 1.0,
 			"videosToPlay": 1,
 			"videosToRequest": 1,
@@ -43,6 +39,7 @@
 				"w": 0,
 				"h": 0
 			},
+			"controlsSkin": "http://cdn.vidible.tv/prod/2015-03/24/53bba5abe4b048c7bb7a99cd_v67.swf",
 			"controlsSkinLocation": {
 				"x": 0,
 				"y": 323,
@@ -56,8 +53,8 @@
 				"h": 360
 			},
 			"afterVideosUI": "next",
-			"scrubBarSkin": "http://cdn.vidible.tv/dev/2013-12/06/52a1dc56300424977848f7df_v1.swf",
-			"coveringsSkin": "http://cdn.vidible.tv/stage/2015-03/02/5469c1eee4b0393d1df1cc3a_v50.swf",
+			"scrubBarSkin": "http://cdn.vidible.tv/prod/2013-03/10/511e8160e4b0bf40bd0340a7_v2.swf",
+			"coveringsSkin": "http://cdn.vidible.tv/prod/2015-03/24/511c1ecee4b0c704f12cfd7a_v39.swf",
 			"coveringsSkinLocation": {
 				"x": 0,
 				"y": 0,
@@ -77,6 +74,9 @@
 			"controlsBackgroundAlpha": "1.0",
 			"backgroundFill": true,
 			"backgroundColor": 0,
+      "jsExtras": [{
+        "coreJsUrl": "http://cdn.vidible.tv/prod/js/extras/nielsen.js"
+      }],
 			"surround3DBevelShadowColor": 16777215,
 			"surround3DBevelHighlightColor": 16777215,
 			"surroundInnerRadius": 0,
@@ -85,54 +85,40 @@
 			"surround3D": false,
 			"surround3DBevelSize": 0,
 			"surround3DBevelStrength": 0.0,
-      "jsExtras": [{
-        "coreJsUrl": "http://cdn.vidible.tv/stage/js/extras/nielsen.js"
-      }],
-			"HLSExtra": "http://cdn.vidible.tv/stage/2015-03/02/5422fb8486f2114b63e770e0_v72.swf",
-			"IMAExtra": "http://cdn.vidible.tv/stage/2015-03/02/5422fb8486f2114b63e770d0_v63.swf",
-			"YuMeExtra": "http://cdn.vidible.tv/stage/2015-03/02/5422fb8486f2114b63e770e5_v52.swf",
-			"FreeWheelExtra": "http://cdn.vidible.tv/stage/2015-03/02/5422fb8486f2114b63e770e4_v55.swf",
-			"VASTExtra": "http://cdn.vidible.tv/stage/2015-03/02/5422fb8486f2114b63e77116_v67.swf",
-			"UIExtra": "http://cdn.vidible.tv/stage/2015-03/02/54cb4157e4b040120cdde2e5_v37.swf",
 			"publisherPayout": "None",
 			"publisherAmount": 0.0,
 			"metaData": {
-				"vidible.AD_START": "http://test.com"
+				"videostart": "http://impr.test.com",
+				"freeWheelProfile": "3pqa_profile",
+				"VIDEO_META": "http://video.meta.com",
+				"freeWheelNetworkId": "90750",
+				"adStart": "http://test.com/cody"
 			},
 			"showLogo": false,
-			"PlayerAdSystem": "http://cdn.vidible.tv/stage/2015-03/02/54c0edd3e4b041cfff703b35_v17.swf"
+            "jsExtras": [{
+        "coreJsUrl": "http://cdn.vidible.tv/stage/js/extras/nielsen.js"
+      }],
+			"HLSExtra": "http://cdn.vidible.tv/prod/2015-03/24/538d8a72e4b078ca3e653bf8_v57.swf",
+			"IMAExtra": "http://cdn.vidible.tv/prod/2015-03/24/53281496e4b07ed088dcc112_v87.swf",
+			"YuMeExtra": "http://cdn.vidible.tv/prod/2015-03/24/53e1c7cbe4b07ee7365f29d0_v40.swf",
+			"FreeWheelExtra": "http://cdn.vidible.tv/prod/2015-03/24/53ea27a4e4b07b82e79a9a93_v37.swf",
+			"VASTExtra": "http://cdn.vidible.tv/prod/2015-03/24/515ec96fe4b0d3d2531c453c_v152.swf",
+			"PlayerAdSystem": "http://cdn.vidible.tv/prod/2015-03/24/54c0f57ee4b0cd706d4b0655_v11.swf",
+			"UIExtra": "http://cdn.vidible.tv/prod/2015-03/24/54dc812ce4b0d09a18e61231_v10.swf"
 		},
 		"adSettings": {
 			"podSize": 1,
 			"prerollInterleave": 1,
-      "midrollTiming": '20%',
 			"softTimeout": 0.4,
 			"hardTimeout": 3.2,
 			"startTimeout": 19.200000000000003,
 			"companions": [],
-			"aeg": [
-				[{
-					"name": "qwe",
-					"type": "All",
-					"vendor": "54f446ade4b097b21d385392",
-					"url": "http://ad4.liverail.com/?LR_PUBLISHER_ID=1331&LR_SCHEMA=vast2-vpaid",
-					"slot": {
-						"position": "FULL"
-					},
-					"allowMultiburn": true,
-					"priorityBoost": 1.0,
-					"strictSiteCheck": false,
-					"usesShim": false,
-					"enabled": true,
-					"startTimeout": 20.0,
-					"houseAd": false
-				}]
-			],
+			"aeg": [],
 			"asids": []
 		},
 		"playerWidget": {
 			"playerType": "SMART",
-			"url": "http://cdn.vidible.tv/stage/2015-03/05/53496cbee4b08e89da5675ce_v286.swf",
+			"url": "http://cdn.vidible.tv/prod/2015-03/24/511b13fde4b0c704f12cfd68_v280.swf",
 			"adOnly": false
 		},
 		"geo": {
@@ -250,29 +236,29 @@
 		var r = encodeURIComponent(ifr ? document.referrer : location.href);
 		var i = document.createElement("img");
 		var it = new Date().getTime();
-		i.src = "http://trk.dev.vidible.tv/trk/impression.gif?pid=54f6fa4ce4b097b21d38c070&bcid=50d595ec0364e95588c77bd2&" + p + "ifr=" + ifr + "&cb=" + cb + "&r=" + r;
+		i.src = "http://trk.vidible.tv/trk/impression.gif?pid=55114140e4b0c35b50a26e41&bcid=50d595ec0364e95588c77bd2&" + p + "ifr=" + ifr + "&cb=" + cb + "&r=" + r;
 		i = document.createElement("img");
-		i.src = "http://trk.dev.vidible.tv/trk/js-loaded.gif?pid=54f6fa4ce4b097b21d38c070&bcid=50d595ec0364e95588c77bd2&" + p + "ifr=" + ifr + "&cb=" + cb + "&r=" + r;
+		i.src = "http://trk.vidible.tv/trk/js-loaded.gif?pid=55114140e4b0c35b50a26e41&bcid=50d595ec0364e95588c77bd2&" + p + "ifr=" + ifr + "&cb=" + cb + "&r=" + r;
 		var s = document.createElement("script");
 		s.type = "text/javascript";
-		s.src = "http://cdn.vidible.tv/stage/js/vidible-min.js?pid=54f6fa4ce4b097b21d38c070&bcid=50d595ec0364e95588c77bd2&" + p + "ifr=" + ifr + "&cb=" + cb + "&r=" + r;
+		s.src = "http://cdn.vidible.tv/prod/js/vidible-min.js?pid=55114140e4b0c35b50a26e41&bcid=50d595ec0364e95588c77bd2&" + p + "ifr=" + ifr + "&cb=" + cb + "&r=" + r;
 		s.onload = function() {
 			var pl = vidible.createPlayer({
 				apid: "",
-				pid: "54f6fa4ce4b097b21d38c070",
+				pid: "55114140e4b0c35b50a26e41",
 				bcid: "50d595ec0364e95588c77bd2",
 				params: p,
 				content: c,
 				it: it,
 				site: r
 			}, json, {
-				cdn: "http://cdn.vidible.tv/stage/",
-				trk: "http://trk.dev.vidible.tv/trk/",
-				ds: "http://delivery.dev.vidible.tv/",
-				ptv: "http://portal.dev.vidible.tv/"
+				cdn: "http://cdn.vidible.tv/prod/",
+				trk: "http://trk.vidible.tv/trk/",
+				ds: "http://delivery.vidible.tv/",
+				ptv: "http://portal.vidible.tv/"
 			});
 			var i = document.createElement("img");
-			i.src = "http://trk.dev.vidible.tv/trk/js-started.gif?pid=54f6fa4ce4b097b21d38c070&bcid=50d595ec0364e95588c77bd2&" + p + "ifr=" + ifr + "&cb=" + cb + "&r=" + r;
+			i.src = "http://trk.vidible.tv/trk/js-started.gif?pid=55114140e4b0c35b50a26e41&bcid=50d595ec0364e95588c77bd2&" + p + "ifr=" + ifr + "&cb=" + cb + "&r=" + r;
 			var clb = window['vidibleInitialize'];
 			if (clb) {
 				clb(pl);
