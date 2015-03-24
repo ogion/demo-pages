@@ -19,6 +19,15 @@
 						"descriptors": [],
 						"minAge": 0
 					},
+          "category": ["category"],
+          "content": {
+            "Click": ["http://click-100.pix.com", "http://click-200.pix.com"],
+            "PlayedTo50Percent": ["http://50.pix.com"],
+            "PlayedTo75Percent": ["http://75.pix.com"],
+            "PlayedTo100Percent": ["http://100.pix.com"],
+            "Impression": ["http://impression.pix.com"],
+            "PlayedTo25Percent": ["http://25.pix.com"]
+          }
 					"duration": 211557
 				}
 			}]
