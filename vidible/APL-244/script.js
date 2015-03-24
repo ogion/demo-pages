@@ -95,9 +95,6 @@
 				"adStart": "http://test.com/cody"
 			},
 			"showLogo": false,
-            "jsExtras": [{
-        "coreJsUrl": "http://cdn.vidible.tv/stage/js/extras/nielsen.js"
-      }],
 			"HLSExtra": "http://cdn.vidible.tv/prod/2015-03/24/538d8a72e4b078ca3e653bf8_v57.swf",
 			"IMAExtra": "http://cdn.vidible.tv/prod/2015-03/24/53281496e4b07ed088dcc112_v87.swf",
 			"YuMeExtra": "http://cdn.vidible.tv/prod/2015-03/24/53e1c7cbe4b07ee7365f29d0_v40.swf",
