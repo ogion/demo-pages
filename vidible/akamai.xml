@@ -1,0 +1,64 @@
+
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:bbg="http://www.bloomberg.com/module/bbg/" version="2.0">
+<channel>
+<title>Bloomberg Syndication</title>
+<link>http://www.bloomberg.com/</link>
+<description>Bloomberg Media RSS Syndication Feed</description>
+<language>en-US</language>
+<copyright>Copyright 2014, Bloomberg, L.P.</copyright>
+<generator>Custom</generator>
+<item>
+<title>Celebrity</title>
+<link/>
+<description>
+test of smart seeking
+</description>
+<pubDate>Fri, 08 Aug 2014 05:49:48 GMT</pubDate>
+<guid isPermaLink="false">fa375bb8-71b3-4ab2-9dcb-93d3c8456a48</guid>
+<media:category scheme="http://www.bloomberg.com" label="Bloomberg.com Web Submit">WEBSUBMIT</media:category>
+<media:category scheme="http://www.bloomberg.com" label="Countdown">VIDTVCOU</media:category>
+<media:category scheme="http://www.bloomberg.com" label="Syndication Top Europe Feed">VIDMLDEUR</media:category>
+<media:category scheme="http://www.bloomberg.com" label="BTV Web Video; Company News">VIDSEGCN</media:category>
+<media:category scheme="http://www.bloomberg.com" label="Bloomberg Vid; U.K. TV Source">VIDUKTV</media:category>
+<media:thumbnail url="http://www.bloomberg.com/image/iX71zBhdH9RY.jpg" width="488" height="360"/>
+<media:thumbnail url="http://www.bloomberg.com/image/iGSE5c.9dbfg.jpg" width="144" height="114"/>
+<media:thumbnail url="http://www.bloomberg.com/image/irweAqkKCvbc.jpg" width="320" height="240"/>
+<media:thumbnail url="http://www.bloomberg.com/image/ilf8M4gQyLJo.jpg" width="368" height="207"/>
+<media:thumbnail url="http://www.bloomberg.com/image/iT.e3wvRLJmk.jpg" width="628" height="353"/>
+<media:thumbnail url="http://www.bloomberg.com/image/iaJLKTJD4x7I.jpg" width="889" height="500"/>
+<media:thumbnail url="http://www.bloomberg.com/image/iPlJ7J7VJrjk.jpg" width="200" height="113"/>
+<media:thumbnail url="http://www.bloomberg.com/image/iywBh9SQMZ7c.jpg" width="120" height="120"/>
+<media:thumbnail url="http://www.bloomberg.com/image/i5eCarrH3qnA.jpg" width="80" height="80"/>
+<media:thumbnail url="http://www.bloomberg.com/image/iqxBPkErh32g.jpg" width="120" height="80"/>
+<media:thumbnail url="http://www.bloomberg.com/image/i3z8iT3L5_lM.jpg" width="620" height="226"/>
+<media:thumbnail url="http://www.bloomberg.com/image/iL9HxMMMaQuo.jpg" width="400" height="225"/>
+<media:thumbnail url="http://www.bloomberg.com/image/i52WFpQqsJd0.jpg" width="140" height="80"/>
+<media:thumbnail url="http://www.bloomberg.com/image/i_PY.7omb2kc.jpg" width="70" height="70"/>
+<media:thumbnail url="http://www.bloomberg.com/image/iuTviFfNM1K4.jpg" width="140" height="79"/>
+<media:thumbnail url="http://www.bloomberg.com/image/i48Kp23QKYLg.jpg" width="640" height="360"/>
+<media:thumbnail url="http://www.bloomberg.com/image/iDbkcat_4O34.jpg" width="1200" height="675"/>
+<media:thumbnail url="http://www.bloomberg.com/image/iDbVmvf9wd4A.jpg" width="190" height="107"/>
+<media:thumbnail url="http://www.bloomberg.com/image/i4CoYo_aSNWc.jpg" width="380" height="252"/>
+<media:thumbnail url="http://www.bloomberg.com/image/iGbvbJqT_Sxc.jpg" width="368" height="207"/>
+<media:thumbnail url="http://www.bloomberg.com/image/io.s5E14zOi8.jpg" width="840" height="473"/>
+<media:thumbnail url="http://www.bloomberg.com/image/iT9uEA2Xrodg.jpg" width="853" height="480"/>
+<media:content medium="video" url="http://avideos.5min.com/404/5184404/518440391_4.mp4"/>
+<bbg:mrcAssetId>6115272</bbg:mrcAssetId>
+<bbg:avmmAssetId>200511855</bbg:avmmAssetId>
+<bbg:peopleCodes>
+<bbg:peopleCode>
+<bbg:code>16206051</bbg:code>
+<bbg:description>Caroline Hyde</bbg:description>
+</bbg:peopleCode>
+</bbg:peopleCodes>
+<bbg:comscore>
+<bbg:nt_st_ep>Finland Hit Hard by Russia’s Food Ban</bbg:nt_st_ep>
+<bbg:bb_pub_d>2014-08-08 01:46:49 -0400</bbg:bb_pub_d>
+<bbg:ns_st_ty>short-form</bbg:ns_st_ty>
+<bbg:C5>02</bbg:C5>
+</bbg:comscore>
+<bbg:filename>dmd140808companynewshyde.mpg</bbg:filename>
+<bbg:created>2014-08-08</bbg:created>
+</item>
+</channel>
+</rss>
